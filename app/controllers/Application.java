@@ -22,5 +22,9 @@ public class Application extends Controller {
     public static Result index() {
         return ok("hello world queen");
     }
+    
+    public static Result catalog() {
+        return ok("hello world queen");
+    }
   
 }
